@@ -41,11 +41,11 @@ class Temperature:
     def fahrenheit(self):
         self._celsius = 0
 
-temp1 = Temperature()
-
-temp1.celsius = 100
-print(temp1.celsius)
-temp1.fahrenheit = 100
-print(temp1.fahrenheit)
-print(temp1.celsius)
-temp1.celsius = -300
+if __name__ == '__main__':
+    temp1 = Temperature()
+    temp1.celsius = 100
+    print(temp1.celsius)
+    temp1.fahrenheit = 100
+    print(temp1.fahrenheit)
+    print(temp1.celsius)
+    temp1.celsius = -300
